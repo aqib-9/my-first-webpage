@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mainbox{
+    height: 100vh;
+    width: auto;
+    background: url(https://th.bing.com/th/id/OIP.__OjU4JIqmfddcyBtlAv9gHaEo?rs=1&pid=ImgDetMain);
+    background-size: cover;
+}
+.mainbox .country .btn1{
+    color: greenyellow;
+    font-weight: bolder;
+    font-size: 35px;
+    position: absolute;
+}
+.mainbox .country .countrylist{
+    background-color: azure;
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    box-shadow: 0 0 18px red;
+    opacity: 0.6;
+    left: -450px;
+
+}
+.countrytitle
+{
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+    text-decoration:double;
+    border: 2px solid black;
+    text-align: center;
+    text-decoration: underline;
+}
+.mainbox .country .countrylist .btn2{
+    position: absolute;
+    left: 250px;
+    top: 5px;
+}
+.mainbox .country .countrylist .sidebarcountry {
+    position: absolute;
+    top: 60px;
+}
+.mainbox .country .countrylist .sidebarcountry li,a{
+    padding: 10px 5px;
+
+}
+.mainbox .country .countrylist .socialcountry{
+    position: absolute;
+    bottom: 40px;
+
+}
+#check1{
+    display: none;
+}
+#check1:checked~.countrylist{
+    left: 0px;
+}
+
